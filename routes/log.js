@@ -1,4 +1,4 @@
-const controller = require("../controllers/logs");
+const controller = require("../controllers/log");
 const router = require("express").Router();
 
 // CRUD Routes /logs
