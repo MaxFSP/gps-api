@@ -20,7 +20,7 @@ app.get("/", (req, res, next) => {
 });
 
 //CRUD routes
-app.use("/logs", require("./routes/logs"));
+app.use("/logs", require("./routes/log"));
 
 //error handling
 app.use((error, req, res, next) => {
